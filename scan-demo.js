@@ -1,3 +1,3 @@
 export function evaluateInput(input) {
-  return eval(input);
+  return JSON.parse(input);
 }
